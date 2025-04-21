@@ -1,7 +1,7 @@
-import { SourceEntity } from './source.entity';
+import {Source} from './source.entity';
 
 describe('SourceEntity', () => {
   it('should create an instance', () => {
-    expect(new SourceEntity()).toBeTruthy();
+    expect(new Source()).toBeTruthy();
   });
 });

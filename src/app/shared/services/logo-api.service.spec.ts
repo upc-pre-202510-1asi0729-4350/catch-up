@@ -1,6 +1,6 @@
-import { TestBed } from '@angular/core/testing';
+import {TestBed} from '@angular/core/testing';
 
-import { LogoApiService } from './logo-api.service';
+import {LogoApiService} from './logo-api.service';
 
 describe('LogoApiService', () => {
   let service: LogoApiService;

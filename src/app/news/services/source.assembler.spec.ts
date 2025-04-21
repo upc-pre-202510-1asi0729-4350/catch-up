@@ -1,4 +1,4 @@
-import { SourceAssembler } from './source.assembler';
+import {SourceAssembler} from './source.assembler';
 
 describe('SourceAssembler', () => {
   it('should create an instance', () => {

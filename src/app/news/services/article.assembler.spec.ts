@@ -1,4 +1,4 @@
-import { ArticleAssembler } from './article.assembler';
+import {ArticleAssembler} from './article.assembler';
 
 describe('ArticleAssembler', () => {
   it('should create an instance', () => {
