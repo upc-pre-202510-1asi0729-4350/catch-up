@@ -12,7 +12,7 @@ import {
 import {DatePipe} from '@angular/common';
 import {MatAnchor, MatIconButton} from '@angular/material/button';
 import {TranslatePipe} from '@ngx-translate/core';
-import {MatIcon} from '@angular/material/icon-module.d-BeibE7j0';
+import {MatIcon} from '@angular/material/icon';
 
 @Component({
   selector: 'app-article-item',
