@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { SourceItemComponent } from './source-item.component';
+import {SourceItemComponent} from './source-item.component';
 
 describe('SourceItemComponent', () => {
   let component: SourceItemComponent;

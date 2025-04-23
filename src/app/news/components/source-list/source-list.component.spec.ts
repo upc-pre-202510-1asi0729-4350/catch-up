@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { SourceListComponent } from './source-list.component';
+import {SourceListComponent} from './source-list.component';
 
 describe('SourceListComponent', () => {
   let component: SourceListComponent;
