@@ -7,7 +7,7 @@ import {MatSidenav, MatSidenavContainer} from '@angular/material/sidenav';
 import {MatToolbar} from '@angular/material/toolbar';
 import {SourceListComponent} from '../../../news/components/source-list/source-list.component';
 import {MatIconButton} from '@angular/material/button';
-import {MatIcon} from '@angular/material/icon-module.d-BeibE7j0';
+import {MatIcon} from '@angular/material/icon';
 import {LanguageSwitcherComponent} from '../language-switcher/language-switcher.component';
 import {ArticleListComponent} from '../../../news/components/article-list/article-list.component';
 
