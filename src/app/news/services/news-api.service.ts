@@ -24,13 +24,13 @@ export class NewsApiService {
       `${this.baseUrl}${this.sourcesEndpoint}`,
       { params: { apiKey: this.apiKey }})
       .pipe(map(response =>
-        SourceAssembler.toEntitiesFromResponse(response)));
+        SourceAssembler.withLogoApiService(this.logoApiService).toEntitiesFromResponse(response)));
   }
 
   getArticlesBySourceId(sourceId: string): Observable<Article[]> {
     return this.http.get<TopHeadlinesResponse>(
       `${this.baseUrl}${this.newsEndpoint}`,
       { params: { apiKey: this.apiKey, sources: sourceId }})
-      .pipe(map(response => ArticleAssembler.toEntitiesFromResponse(response)));
+      .pipe(map(response => ArticleAssembler.withLogoApiService(this.logoApiService).toEntitiesFromResponse(response)));
   }
 }

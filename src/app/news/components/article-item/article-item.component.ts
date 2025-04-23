@@ -6,7 +6,7 @@ import {
   MatCardActions,
   MatCardContent,
   MatCardHeader,
-  MatCardImage,
+  MatCardImage, MatCardModule,
   MatCardTitleGroup
 } from '@angular/material/card';
 import {DatePipe} from '@angular/common';
@@ -16,7 +16,7 @@ import {MatIcon} from '@angular/material/icon';
 
 @Component({
   selector: 'app-article-item',
-  imports: [MatSnackBarModule, MatCard, MatCardHeader, MatCardContent, MatCardActions, MatCardImage, MatCardTitleGroup, DatePipe, MatAnchor, TranslatePipe, MatIconButton, MatIcon],
+  imports: [MatCardModule, MatSnackBarModule, MatCard, MatCardHeader, MatCardContent, MatCardActions, MatCardImage, MatCardTitleGroup, DatePipe, MatAnchor, TranslatePipe, MatIconButton, MatIcon],
   templateUrl: './article-item.component.html',
   styleUrl: './article-item.component.css'
 })
